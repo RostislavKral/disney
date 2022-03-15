@@ -27,7 +27,7 @@ const ImgSlider = () => {
 export default ImgSlider
 const Carousel = styled(Slider)`
     margin-top: 20px;
-    
+        
     ul li button { 
         &:before {
             font-size: 10px;
@@ -72,7 +72,7 @@ const Wrap = styled.div`
     
         
         &:hover{
-            border: 4px solid rgba(249, 249, 0.8);
+            border: 4px solid rgba(249, 249, 249, 0.8);
         }
     }
 `
